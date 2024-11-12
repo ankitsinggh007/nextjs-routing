@@ -5,7 +5,6 @@ import React from 'react'
 function Notfound() {
   
   const path=useParams()
-  console.log(path,"kh")
   
   return (
     <div id='error'>

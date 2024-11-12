@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Layout({archive,latest}) {
+function Layout({old,latest}) {
   return (
     <div>
     <section id='archive-filter'>
-    {archive}
+    {old}
     </section>
     <section id='archive-latest'>
         {latest}
