@@ -10,7 +10,7 @@ function NewsList({news}) {
     {news.map((obj)=>
     <li className='news-list' key={obj.id}>
        <Link href={`/news/${obj.slug}`}>
-        <Image width="300" height='300' src={`/images/news/${obj.image}`}
+        <Image width="400" height='400' src={`/images/news/${obj.image}`}
         alt={obj.title}
         />
         <span>{obj.title}</span>

@@ -1,9 +1,15 @@
+import NewsList from '@/component/news-list';
+import { getLatestNews } from '@/lib/news';
 import React from 'react'
 
-function Latestpage() {
+function defaultPage() {
+    const news=getLatestNews();
   return (
-    <div>latest page</div>
+    <>
+    <h2>Latest News from page</h2>
+    <NewsList news={news}/>
+    </>
   )
 }
 
-export default Latestpage;
+export default defaultPage;

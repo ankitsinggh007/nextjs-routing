@@ -40,4 +40,12 @@ export const DUMMY_NEWS = [
       date: '2022-07-01',
       content: 'Landscape photography is a great way to capture the beauty of nature. It is also a great way to get outside and enjoy the great outdoors. So what are you waiting for? Get out there and start taking some pictures!',
     },
+    {
+      id: '64',
+      slug: 'trekking',
+      title: 'trekking is the best!',
+      image: 'trekking.jpg',
+      date: '2024-11-01',
+      content: 'trekking is a great way to get some exercise and enjoy the great outdoors. It is also a great way to clear your mind and reduce stress. So what are you waiting for? Get out there and start hiking!',
+    }
   ];
