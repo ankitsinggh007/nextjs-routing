@@ -1,11 +1,8 @@
 import { getAvailableNewsYears,getAvailableNewsMonths } from '@/lib/news';
 import React from 'react'
 
-function Archive() {
-
+function Archive({params}) {
   const year=getAvailableNewsYears();
-  console.log(year)
-  // const month=getAvailableNewsMonths(year);
   return (<div id="home">
     archive section
   </div>)
