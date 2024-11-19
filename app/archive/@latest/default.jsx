@@ -6,7 +6,7 @@ function defaultPage() {
     const news=getLatestNews();
   return (
     <>
-    <h2>Latest News</h2>
+    <h2>Latest Newss</h2>
     <NewsList news={news}/>
     </>
   )
